@@ -47,7 +47,7 @@ public class SortingUtils
         }
         return true;
     }
-    public static int minimum(int[] arr, int ind)
+    public static int minimumIndex(int[] arr, int ind)
     {
         int minInd = ind;
         for(int i = ind; i < arr.length; i++)
